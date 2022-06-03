@@ -1,0 +1,8 @@
+version: '3.0'
+
+services:
+  arrowtable:
+    image: hnakhoa93/arrowtable:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
